@@ -100,7 +100,7 @@ Below is my custom `PermissionAuthorizeAttribute` that I derive from `AuthorizeA
 
 What we are doing with this custom authorize attribute is allowing the specific parameter type to be passed in as a parameter to the attribute.
 
-Example: `[PermissionAuthorizeAttribute(Permission.AdjustmentsRead)]`.
+Example: `[PermissionAuthorize(Permission.AdjustmentsRead)]`.
 
 This attribute will evaluate a policy `Permission_AdjustmentsRead` (that we will define below) to determine if the user should be authorized to use/see the resource.
 
